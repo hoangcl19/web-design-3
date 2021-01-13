@@ -1,0 +1,50 @@
+/*css code for home page*/
+
+/*style for introduction 'Hi, I am Chi!'*/
+   #intro {
+       font-size: 70px;
+       margin: 20px;
+       margin-top: 5%;
+       margin-bottom: 0;
+       padding-left: 2 em;    
+   }  
+/*style for introduction paragraph*/
+   #welcome {
+       font-size: 140%;
+       margin: 20px;
+       padding-left: 2 em;
+       padding-top: 0;
+   }
+   .box {
+       border-right: 6px solid;
+       height: 50%;
+       width: 50%;
+       margin: 7% 2% 2% 2%;
+       padding-left: 1 em ;  
+       float: left;   
+       text-align: justify;   
+    }
+/*style for logo*/
+    #logo {
+       display: inline-block;
+       width: 11%;
+       height: 11%;
+       float: left;
+       padding-left: 2%;       
+   }
+/*style for intro picture*/
+   #intropic {
+       height:36%; 
+       width: 36%;
+       margin: 1% 0.5% 1% 0.5%;
+       padding-left: 5%;
+    }
+/*style for content box*/
+      .content-box {
+        border-radius:10px;
+        margin: 0.5% 7% 6.5% 7%; 
+        padding: 3% 1% 3% 1%;
+        background: rgb(234, 234, 225);
+        text-align: left;
+        height: fit-content;
+    }

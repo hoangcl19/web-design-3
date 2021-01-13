@@ -1,0 +1,47 @@
+/*css code for contact page*/
+
+/*padding for tabname and paragraphs*/
+.msg {text-align: center;}
+
+/*style for tabname*/
+.contact-name {
+  text-align: center;
+  font-size: 28px;
+}
+/*style for content box*/
+.content-box {
+  border-radius:10px;
+  font-size: 17px;
+  margin: 0.5% 7% 5% 7%;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  background: rgb(234, 234, 225);
+  text-align: left;
+}
+/*style for contact form box*/
+.contact-form {
+  margin: 2% 8% 2% 24%;
+  display: inline-block;
+  width: 50%;
+}
+ /*style for textboxes in contact form*/
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(160, 149, 149); 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  resize: vertical; 
+}
+input[type=submit] {
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 42%;
+}
+input[type=submit]:hover {
+  background-color: black; 
+  color: white;
+}
